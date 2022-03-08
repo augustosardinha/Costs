@@ -1,0 +1,17 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+.item input {
+    padding: 1em;
+}
+
+.item input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+.item input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}

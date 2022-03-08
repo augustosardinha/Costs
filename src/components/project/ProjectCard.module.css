@@ -1,0 +1,75 @@
+.project__card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    padding: 1.5em;
+    border-radius: 0.5em;
+    width: 22%;
+    border: 1px solid #7a7a7a;
+    margin: 1em;
+}
+
+.project__card h4 {
+    padding: 0.2em;
+    font-size: 24px;
+    color: #ffbb33;
+    background-color: #222;
+}
+
+.project__card p {
+    color: #7a7a7a;
+}
+
+.project__card__category {
+    display: flex;
+    align-items: center;
+    gap: 0.8em;
+}
+
+.project__card__category span {
+    display: block;
+    width: 0.8em;
+    height: 0.8em;
+    border-radius: 50%;
+}
+
+.project__card__category .inf {
+    background-color: lightseagreen;
+}
+.project__card__category .dev {
+    background-color: lightgreen;
+}
+.project__card__category .uxd {
+    background-color: lightslategray;
+}
+.project__card__category .pro {
+    background-color: lightblue;
+}
+
+.project__card__action {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.project__card__action a,
+.project__card__action button {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    transition: 0.5s;
+    border-radius: 0.3em;
+    border: 1px solid #7a7a7a;
+    color: #7a7a7a;
+    transition: 0.5s;
+}
+.project__card__action a:hover,
+.project__card__action button:hover {
+    background-color: #fbc65c;
+    color: #222;
+    border: 0;
+}

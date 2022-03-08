@@ -1,0 +1,21 @@
+.newProject {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 0 auto;
+    padding: 3em;
+    gap: 2em;
+}
+.newProject h1{
+    text-align: center;
+    letter-spacing: 2px;
+}
+.newProject span{
+    color: #ffbb33;
+    background: #222;
+}
+.newProject h2{
+    font-weight: 400;
+    color: #7b7b7b;
+}
